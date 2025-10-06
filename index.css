@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Apetito';
+  src: url(page1-1/Edwardian\ Script\ ITC\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Italic';
+  src: url(page1-1/awesomelathusca-regular.ttf) format('truetype');
+}
+
+
+.Appetito {
+    position: absolute;
+    top: 2%;
+}
+#lino {
+    color: rgb(0, 0, 0);
+    font-size: 90px ;
+position: absolute;
+left: 10%;
+margin: 0px;
+font-family: 'Italic', serif;
+transform: translate(0, -165%);}
+
+
+#dos {color: rgb(255, 216, 40);
+font-size: 175px;
+margin:0px;
+font-family: 'Apetito', cursive;
+font-weight: lighter;
+margin: 0;
+z-index: 999;
+position: relative;
+left: -2%;
+transform: translate(0, -54%);
+
+}
+
+#santos {color: rgb(255, 196, 0);
+font-size: 150px;
+left: -12%;
+position: relative;
+margin:0px;
+font-family: 'Italic', serif;
+font-weight: normal;
+transform: translate(0, -88%);
+}
+
+#sena {
+    color: rgb(6, 68, 6);
+font-size: 65px;
+font-family: 'Apetito', cursive;
+font-weight: normal;
+width: 700px;
+position: absolute; 
+top: 80%;
+left: -14%;
+margin: 0px;
+}
+#div1 {
+    position:absolute;
+    top: 26%;
+    left: 10%;
+}
+
+
+#vinho {
+    height: 666px;
+    width: auto;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    border-radius: 25px;
+}
+
+#menudiv {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid black;
+    z-index: 10;
+    position: relative;
+}
+
+.buttonm {
+    border: none;
+    background-color: transparent;
+}
+
+.amen {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+* {
+    margin: 0;
+}
