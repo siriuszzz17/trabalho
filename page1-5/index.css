@@ -1,0 +1,28 @@
+body {
+    background-color: #265037;
+}
+
+#txt {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 2%;
+    font-weight: 1;
+    text-align: center;
+}
+
+#veio {
+    position: absolute;
+    left: 52%;
+    top: 10%;
+    border-radius: 10px;
+    width: 700px;
+    height: 490px;
+}
+
+#divtext {
+    width: 50%;
+    height: 100%;
+    position:absolute;
+    top: 8%;
+}

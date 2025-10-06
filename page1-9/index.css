@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Apetito';
+  src: url(../page1-1/Edwardian\ Script\ ITC\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Italic';
+  src: url(../page1-1/awesomelathusca-regular.ttf) format('truetype');
+}
+
+
+
+* {
+    background-color: beige;
+}
+
+.btcmd {
+    width: 280px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.btcmd2 {
+    width: 280px;
+    height: 400px;
+    border-radius: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+}
+#div1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmdimg {
+    width: 215px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+button {
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+
+#app {
+    font-family: 'Apetito', serif;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 50px;
+    color: darkred;
+}
+
+#ind {
+    font-family: 'Italic', serif;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 40px;
+    color: darkred;
+}

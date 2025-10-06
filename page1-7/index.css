@@ -1,0 +1,64 @@
+* {
+    background-color:beige
+}
+
+#canto {
+    position: absolute;
+    top: 16%;
+    right: 0%;
+    z-index: 0;
+    background-color: transparent;
+}
+
+#titulo {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.text {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+#duv {
+    width: 1500px;
+}
+
+.info {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+#div1 {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+#div2 {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.red {
+    color: red;
+
+}
+.yl {
+    color: yellow;
+}
+
+#logo {
+    width: 250px;
+    position: absolute;
+    top: 58%;
+    right: 10%;
+    background-color: transparent;
+}

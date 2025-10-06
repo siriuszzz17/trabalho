@@ -1,0 +1,72 @@
+* {
+    background-color: beige;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#pesquisa {
+    text-align: center;
+    margin-top: 20px;
+    width: 1000px;
+    height: 50px;
+    font-size: 40px;
+    position: absolute;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.lateral {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#div2 {
+    display: block;
+    width: 200px;
+    height: 800px;
+}
+
+.imgbt {
+    height: 190px;
+    width: 190px;
+    background-color: transparent;
+}
+
+#logo {
+    position: absolute;
+    right: 2%;
+    height: 250px;
+}
+
+section {
+    position: absolute;
+    top: 20%;
+    width: 950px;
+    left: 25%;
+}
+
+.pesq {
+    width: 800px;
+    height: 100px;
+    margin: 0;
+    font-size: 24px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.num {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    font-size: 24px;
+    margin-top: 5px;
+    cursor: pointer;
+}
